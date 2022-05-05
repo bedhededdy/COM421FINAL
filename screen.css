@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: white;
+}
+
+body {
+    background-color: #b3ddf2;
+    padding-bottom: 96px;
+}
+
+h1 {
+    position: absolute;
+    top: 150px;
+    left: 50vw;
+    font-size: 3.127rem;
+    line-height: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 2.369rem;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    line-height: 1em;
+}
+
+h3 {
+    font-size: 1.777rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-decoration: underline;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.22rem;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+header p {
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-top: 1em;
+    margin-top: 1em;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    left: 5vw;
+    top: 30%;
+    position: absolute;
+    font-size: 2.369rem;
+    line-height: 2em;
+    background-color: #b3ddf2;
+}
+
+nav a {
+    text-decoration: none;
+    color: #52708c;
+    background-color: #b3ddf2;
+}
+
+nav a:hover {
+    color: #b3ddf2;
+    background-color: white;
+}
+
+#graphs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#guide > ul > li {
+    display: list-item;
+    list-style: disc;
+    margin-left: 60px;
+}
+
+#header-container {
+    position: relative;
+}
+
+#header-container img {
+    width: 100%;
+}
+
+#content {
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+#graph-gallery-one,
+#graph-gallery-two {
+    width: 66%;
+}
+
+#graphs img {
+    width: 49%;
+}
+
+#graphs p {
+    width: 32%;
+    margin-right: 1%;
+}
+
+#rhetorical-container {
+    display: flex;
+}
+
+#logos,
+#pathos,
+#ethos {
+    width: 33%;
+}
+
+#logos p,
+#pathos p,
+#ehtos p {
+    margin-right: 20px;
+}
+
+#resources ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#do-not-pay,
+#chicago-gov,
+#probublica {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 1.6%;
+    padding-right: 1.6%;
+}
+
+#do-not-pay img,
+#chicago-gov img,
+#probublica img {
+    width: 100%;
+}
+
+#do-not-pay a,
+#chicago-gov a,
+#probublica a {
+    text-decoration: none;
+    font-size: 1.333rem;
+    font-style: italic;
+    color: blue;
+}
+
