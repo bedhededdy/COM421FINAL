@@ -3,94 +3,125 @@
     <head>
         <meta charset="utf-8" />
         <title>Take It to the Streets 28th Ward</title>
+        <link rel="stylesheet" href="screen.css">
     </head>
 
     <body>
         <header>
-            <h1>Take It to the Streets!</h1>
+            <div id="header-container">
+                <h1>Take It to the Streets!</h1>
+                <img src="img/chicago-skyline.png" alt="">
+                <nav>
+                    <ul>
+                        <li><a href="#statistics">The Numbers</a></li>
+                        <li><a href="#guide">How to Appeal</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
             <p>Have you ever gotten a ticket and thought to yourself, "Man, this is bogus! There is no way I'm liable for this!"? If so, you're in the right place! Take It to the Streets is a nonprofit organization that is dedicated to helping you win your day at traffic court.</p>
 
             <p>Each year in Chicago, thousands of underprivileged and minority motorists find themselves spiraling into debt because of tickets they can't pay. For instance, those that find themselves with a fine for a missing or expired city sticker can't afford to pay to get a city sticker nor are they able to afford to pay the ticket. These motorists end up getting fined for the same offense that they are unable to rectify and rack up hundreds if not thousands of dollars owed to pay off their tickets, potentially leading to them losing their license or having their vehicle impounded. The 28th Ward contains many such motorists as it has a large proportion of underprivileged, minority constituents. The city's ticket policy is unfair and hurts wards like yours the most, which is why we have decided to "adopt" your ward in an effort to prevent you and your neighbors from suffering like so many others have.</p>
         </header>
 
-        <section id="statistics">
-           <h2>Parking Violation Statistics</h2>
-           <p>Thinking about how unfair the city's ticket policy is, you might also be thinking to yourself that the process for appealing your ticket is stacked against you, too. This is not the case! Although the process seems intimidating, probably intentionally so, once you successfully schedule an appeal your chance of being let off the hook are quite high.</p>
+        <main id="content">
+            <section id="statistics">
+                <h2>Parking Violation Statistics</h2>
+                <section id="graphs">
+                    <p>Thinking about how unfair the city's ticket policy is, you might also be thinking to yourself that the process for appealing your ticket is stacked against you, too. This is not the case! Although the process seems intimidating, probably intentionally so, once you successfully schedule an appeal your chance of being let off the hook are quite high.</p>
+                    <div id="graph-gallery-one">
+                        <img src="img/CountContest.png" alt="A bar graph contrasting the large number of uncontested violations with the small number of contested violations for each of the top 5 traffic violations in the 28th ward"/>
+                        <img src="img/CountLiable.png" alt="A bar graph showing how most motorists were found unliable when they challenged their ticket in court for each of the top 5 violations in the 28th ward"/>
+                    </div>
+                    <div id="graph-gallery-two">
+                        <img src="img/PercentContest.png" alt="A pie chart showing that over 90% of the top 5 violations in the 28th ward go uncontested"/>
+                        <img src="img/PercentLiable.png" alt="A pie chart showing that almost 2/3 of those who appeal one of the top 5 violations in the 28th ward win their appeal"/>
+                    </div>
+                    <p>In the 28th Ward the most common traffic violations are missing or improper display of a city sticker (964125), vehicle parked during street cleaning (0964040B), no city sticker for a vehicle less 16k lbs (0964125B), missing rear and front plate (0976160A), and expired plates or temporary registration (0976160F). For each of these violations, if you choose to appeal you have a chance greater than 50% of winning, as you can see in our charts.</p>
+                </section>
 
-           <p>In the 28th Ward the most common traffic violations are missing or improper display of a city sticker (964125), vehicle parked during street cleaning (0964040B), no city sticker for a vehicle less 16k lbs (0964125B), missing rear and front plate (0976160A), and expired plates or temporary registration (0976160F). For each of these violations, if you choose to appeal you have a chance greater than 50% of winning, as you can see in our charts below.</p>
+                <p>You can also see in the charts that most tickets go uncontested, despite the fact that those who contest them often come out on top. Do not make the same mistake as them! In some cases where motorists choose to let their tickets pile up, they are forced to file Chapter 13 bankruptcy in order to recover from the staggering amount they owe. The best way to avoid suffering crippling financial consequences from traffic tickets is to fight them rather than let them accrue. There is no need to stress or worry anymore about your tickets, because if you follow the steps we outline below, you'll be prepared to challenge any ticket that comes your way!</p>
+            </section>
 
-           <img src="img/CountContest.png" alt="A bar graph contrasting the large number of uncontested violations with the small number of contested violations for each of the top 5 traffic violations in the 28th ward"/>
-           <img src="img/CountLiable.png" alt="A bar graph showing how most motorists were found unliable when they challenged their ticket in court for each of the top 5 violations in the 28th ward"/>
-           <img src="img/PercentContest.png" alt="A pie chart showing that over 90% of the top 5 violations in the 28th ward go uncontested"/>
-           <img src="img/PercentLiable.png" alt="A pie chart showing that almost 2/3 of those who appeal one of the top 5 violations in the 28th ward win their appeal"/>
+            <section id="guide">
+                <h2>How Do I Appeal?</h2>
+                <p>If your violation was captured by automated traffic law enforcement such as a red light camera, you have 21 days from the date you are issued your Notice of Violation to contest the ticket. Otherwise, you have 7 days to contest the ticket; however, you will be sent a Notice of Violation if no response is recieved within 7 days and it functions the same as the Notice of Violation for automated traffic enforcement. If you do not reply to the Notice of Violation within 21 days, you will get a Notice of Determination which will give you another 21 days to contest the ticket. After the 21 days of the Notice of Determination expire, you will recieve a Notice of Final Determination and will have forfeited all rights to challenge your ticket.</p>
 
-           <p>You can also see in the charts that most tickets go uncontested, despite the fact that those who contest them often come out on top. Do not make the same mistake as them! In some cases where motorists choose to let their tickets pile up, they are forced to file Chapter 13 bankruptcy in order to recover from the staggering amount they owe. The best way to avoid suffering crippling financial consequences from traffic tickets is to fight them rather than let them accrue. There is no need to stress or worry anymore about your tickets, because if you follow the steps we outline below, you'll be prepared to challenge any ticket that comes your way!</p>
-        </section>
+                <p>There are many ways to contest your ticket, but we strongly feel that the best method is to contest in-person. While it might be intimidating to have to stand before a judge, <a href="https://www.cbsnews.com/chicago/news/parking-tickets-contest-administrative-hearing-challenge/">this article</a> contains the advice of a self-described expert at challenging parking tickets who believes that you have a better chance of winning the in-person appeal. To schedule a hearing to contest your ticket, fill out <a href="https://erequest.cityofchicago.org/EHearingWeb/home.do">this form.</a></p>
 
-        <section id="guide">
-            <h2>How Do I Appeal?</h2>
-            <p>If your violation was captured by automated traffic law enforcement such as a red light camera, you have 21 days from the date you are issued your Notice of Violation to contest the ticket. Otherwise, you have 7 days to contest the ticket; however, you will be sent a Notice of Violation if no response is recieved within 7 days and it functions the same as the Notice of Violation for automated traffic enforcement. If you do not reply to the Notice of Violation within 21 days, you will get a Notice of Determination which will give you another 21 days to contest the ticket. After the 21 days of the Notice of Determination expire, you will recieve a Notice of Final Determination and will have forfeited all rights to challenge your ticket.</p>
+                <h2>Allowable Defenses Summary</h2>
+                <p>While there are many allowable defenses to each traffic violation, but the most common ones fall under the following categories:</p>
+                <ul>
+                    <li>Malfunctioning parking meter</li>
+                    <li>View of road sign obscured</li>
+                    <li>Illegal vehicle condition was corrected or never existed</li>
+                    <li>Vehicle was no longer owned or was stolen from the person issued the ticket</li>
+                    <li>Vehicle was part of a funeral procession</li>
+                </ul>
+                <p>There is also a provision that makes you completely unliable for any expired city sticker or expired license plate violation between the dates of April 1, 2022 and December 31, 2023! For a more comprehensive list of allowable defenses, please visit the allowable defenses page linked in the resources section.</p>
 
-            <p>There are many ways to contest your ticket, but we strongly feel that the best method is to contest in-person. While it might be intimidating to have to stand before a judge, <a href="https://www.cbsnews.com/chicago/news/parking-tickets-contest-administrative-hearing-challenge/">this article</a> contains the advice of a self-described expert at challenging parking tickets who believes that you have a better chance of winning the in-person appeal. To schedule a hearing to contest your ticket, fill out <a href="https://erequest.cityofchicago.org/EHearingWeb/home.do">this form.</a></p>
+                <h2>Rhetorical Appeals</h2>
+                <p>There are 3 types of rhetorical appeals that you can rely on to try and convince the judge to find you not liable for your ticket.</p>
+                <div id="rhetorical-container">
+                    <section id="logos">
+                        <h3>Logos</h3>
+                        <p>Logos is an appeal to the audience's reason. When you make your appeal, you want to primarily rely on the logical appeal. You will want to explain to the judge clearly and with evidence how you did not actually commit the violation of which you were accused and cite the specific allowed defense that you are using to make your case.</p>
+                    </section>
+                    <section id="pathos">
+                        <h3>Pathos</h3>
+                        <p>Pathos is an appeal to the audience's emotions. This is the appeal that you should try to avoid. The judge is primarily interested in whether or not you should be held liable for your violation. It doesn't matter if you feed him the saddest story in the world, he has heard it all before and doesn't care.</p>
+                    </section>
+                    <section id="ethos">
+                        <h3>Ethos</h3>
+                        <p>Ethos is an appeal to authority. Again, you should not very heavily rely on this rhetorical appeal when you are challenging your ticket. However, do ensure that you are addressing the judge with his proper title such as calling them "sir/ma'am" or "your honor" and take care to dress up for the day of your hearing. Also feel free to cite your clean driving record (if you have one) or your familiarity with the area to try and establish credibility.</p>
+                    </section>
+                </div>
+                
+            </section>
 
-            <!-- Need to fill out this section-->
-            <h2>Allowable Defenses Summary</h2>
-            <p>The following are a list of allowable defenses for most parking/compliance tickets: </p>
-            <ul>
-                <li></li>
-            </ul>
+            <section id="appeal">
+                <h2>Appeal Template</h2>
+                <p>View and fill out the <a href="pdf/Appeal.pdf">following document</a> for a guide on what to do on the day of your hearing.</p>
+            </section>
 
-            <p>If your violation pertains to an expired city sticker or license plate you are also allowed these defenses:</p>
-            <ul>
-                <li><p>foobar</p></li>
-            </ul>
+            <section id="resources">
+                <h2>Resources</h2>
+                <h3>Handout</h3>
+                <a href="pdf/Handout.pdf">Print out the following handout and share it with someone you know. The more people we can prevent paying fines, the better!</a>
 
-            <!-- Add more to this-->
-            <h2>Rhetorical Appeals</h2>
-            <h3>Logos</h3>
-            <p>Logos is an appeal to the audience's reason. When you make your appeal, you want to primarily rely on the logical appeal. You will want to explain to the judge clearly and with evidence how you did not actually commit the violation of which you were accused and cite the specific allowed defense that you are using to make your case. </p>
-            <h3>Pathos</h3>
-            <p>Pathos is an appeal to the audience's emotions. This is the appeal that you avoid. The judge does not want to hear about how your sister is sick in the hospital because he's heard it all a million times before.</p>
-            <h3>Ethos</h3>
-            <p>Ethos is an appeal to authority. Again, you should not very heavily rely on this rhetorical appeal when you are challenging your ticket. However, do ensure that you are addressing the judge with his proper title such as calling them "sir/ma'am" or "your honor"</p>
-        </section>
+                <h3>Social Media</h3>
+                <a href="https://www.instagram.com/group5finalproject/">Visit our social media page!</a>
 
-        <section id="appeal">
-            <!-- Waiting on appeal guy to finish writing the template-->
-            <p>foobar</p>
-        </section>
+                <h3>Other helpful links</h3>
+                <p>Listed below are some other resources that you may find helpful. We have linked the complete list of allowable traffic ticket defenses, an article that describes the problem that thousands of Chicago motorists have with falling into crippling debt at the hands of traffic tickets, and a link to an AI that can also help you with your argument.</p>
+                <ul>
+                    <li id="do-not-pay">
+                        <a href="https://donotpay.com/learn/chicago-parking-tickets/">AI Parking Ticket Bot</a>
+                        <img src="img/do-not-pay.jpeg" alt="">
+                    </li>
+                    <li id="chicago-gov">
+                        <a href="https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/challenging_tickets/contesting_in_person.html">List of Allowable Defenses</a>
+                        <img src="img/chicago-gov-logo.png" alt="">
+                    </li>
+                    <li id="probublica">
+                        <a href="https://features.propublica.org/driven-into-debt/chicago-ticket-debt-bankruptcy/">Pro Publica Article</a>
+                        <img src="img/propublica.jpeg" alt="">
+                    </li>
+                </ul>
+            </section>
 
-        <section id="resources">
-            <h2>Resources</h2>
-            <h3>Handout</h3>
-            <!-- Insert link-->
-            <a href="">Print out the following handout and share it with someone you know. The more people we can prevent paying fines, the better!</a>
+            <section id="FAQ">
+                <h2>FAQ</h2>
+                <p>Q: Should I appeal my ticket even if I am guilty of the violation?</p>
+                <p>A: Absoulutely. For instance if you are ticketed for not having an expired city sticker or license plate, if you correct the issue before your hearing or if your violation occurred between 04/01/2022-12/31/2023 you are not liable. Motorists that recieve parking tickets, such as the ticket expert mentioned before, have won hearings by showing the judge pictures of faded or obscured signs in the zone in which they illegally parked.</p>
 
-            <h3>Appeal Printout</h3>
-            <!-- Insert link-->
-            <a href="" target="_blank">Download a PDF version of our appeal template to bring with you to your hearing!</a>
+                <p>Q: What if I am unable to make it to court?</p>
+                <p>A: You can still appeal your ticket by mail, online correspondence, or via a virtual hearing. To appeal by mail you will need to include the stub at the end of your Notice of Violation and fill in the bubble to contest by mail. If appealing via online correspondence, you can use the same form as you would to contest in-person, but just select the option for correspondence or for a virtual hearing. However if possible, it is better if you show up to your trial live.</p> 
 
-            <h3>Social Media</h3>
-            <!--Insert link-->
-            <a href="">Visit our social media page!</a>
-
-            <h3>Other helpful links</h3>
-            <p>Listed below are some other resources that you may find helpful. We have linked the complete list of allowable traffic ticket defenses, an article that describes the problem that thousands of Chicago motorists have with falling into crippling debt at the hands of traffic tickets, and a link to an AI that can also help you with your argument.</p>
-            <ul>
-                <li><a href="https://donotpay.com/learn/chicago-parking-tickets/">AI Parking Ticket Bot</a></li>
-                <li><a href="https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/challenging_tickets/contesting_in_person.html">List of Allowable Defenses</a></li>
-                <li><a href="https://features.propublica.org/driven-into-debt/chicago-ticket-debt-bankruptcy/">Pro Publica Article</a></li>
-            </ul>
-        </section>
-
-        <section id="FAQ">
-            <h2>FAQ</h2>
-            <!--Add and answer more potential questions visitors of the site might have-->
-            <p>Q: Should I appeal my ticket even if I am guilty of the violation?</p>
-            <p>A: Absoulutely. For instance if you are ticketed for not having an expired city sticker or license plate, if you correct the issue before your hearing or if your violation occurred between 04/01/2022-12/31/2023 you are not liable. Motorists that recieve parking tickets, such as the ticket expert mentioned before, have won hearings by showing the judge pictures of faded or obscured signs in the zone in which they illegally parked.</p>
-
-            <p>Q: What if I am unable to make it to court?</p>
-            <p>A: You can still appeal your ticket by mail, online correspondence, or via a virtual hearing. To appeal by mail you will need to include the stub at the end of your Notice of Violation and fill in the bubble to contest by mail. If appealing via online correspondence, you can use the same form as you would to contest in-person, but just select the option for correspondence or for a virtual hearing. However if possible, it is better if you show up to your trial live.</p> 
-        </section>
+                <p>Q: What if I am worried about suffering discrimination at my hearing?</p>
+                <p>A: As a citizen from a primarily minority ward, you may be rightfully concerned about facing systemic racism at your hearing. While your concerns are valid, note that most people recieving traffic tickets are African-Americans and most people that challenge traffic tickets win. We have complete faith that if you follow our guidance, you will be able to overcome any barrier or discrimination and come out on top!</p>
+            </section>
+        </main>
     </body>
 </html>
